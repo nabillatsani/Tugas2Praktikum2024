@@ -1,7 +1,9 @@
 # Tugas Pertemuan 2
 
 Nama : Nabilla Tsani Ayasi
+
 NIM : H1D022058
+
 Shift Baru: F
 
 
