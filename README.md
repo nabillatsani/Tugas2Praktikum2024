@@ -18,6 +18,8 @@ NIM : H1D022058
 Shift Baru: F
 
 ## Screenshot
-Contoh :
-![Lampiran Form](form.png)
-![Lampiran Hasil](hasil.png)
+![form](https://github.com/user-attachments/assets/52c4f8c7-c49c-47e9-a34e-319cb20967cf)
+![hasil](https://github.com/user-attachments/assets/ace4dfbf-dfa6-4af4-aa03-df3f7c3f8a6b)
+
+
+
