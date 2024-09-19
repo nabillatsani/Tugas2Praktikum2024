@@ -6,9 +6,11 @@ Shift Baru: F
 
 
 Fork 
+![image](https://github.com/user-attachments/assets/59704496-6ec6-40a5-be20-3f58f2f7cecf)
 
 
 Clone
+![Screenshot 2024-09-19 222849](https://github.com/user-attachments/assets/3240540d-2d57-49a6-bb1c-7bc0ed61bc34)
 
 
 flutter pub get
