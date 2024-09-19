@@ -11,11 +11,11 @@ JELASKAN PROSES PASSING DATA DARI FORM MENUJU TAMPILAN DENGAN FILE `README.md`
 Buat tampilan semenarik mungkin untuk dilihat.
 
 
-Nama : ___
+Nama : Nabilla Tsani Ayasi
 
-NIM : ___
+NIM : H1D022058
 
-Shift Baru: ___
+Shift Baru: F
 
 ## Screenshot
 Contoh :
