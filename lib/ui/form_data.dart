@@ -104,14 +104,14 @@ class FormDataState extends State<FormData> {
         labelText: label,
         labelStyle: const TextStyle(
           color: Colors.black54,
-          fontSize: 16, // Ukuran font yang lebih menonjol pada label
+          fontSize: 16,
         ),
         border: OutlineInputBorder(
-          borderRadius: BorderRadius.circular(20.0), // Sudut tumpul pada input
+          borderRadius: BorderRadius.circular(20.0),
         ),
         filled: true,
-        fillColor: Colors.white, // Warna latar belakang input yang kontras
-        contentPadding: const EdgeInsets.symmetric(vertical: 12, horizontal: 16), // Padding dalam input
+        fillColor: Colors.white,
+        contentPadding: const EdgeInsets.symmetric(vertical: 12, horizontal: 16),
       ),
       style: const TextStyle(
         fontSize: 16,
@@ -122,7 +122,7 @@ class FormDataState extends State<FormData> {
 
   Widget _buildSaveButton() {
     return SizedBox(
-      width: double.infinity, // Tombol memenuhi lebar kotak
+      width: double.infinity,
       child: TextButton(
         onPressed: () {
           String nama = _namaController.text;
@@ -134,9 +134,9 @@ class FormDataState extends State<FormData> {
         },
         style: TextButton.styleFrom(
           padding: const EdgeInsets.symmetric(vertical: 14),
-          backgroundColor: Colors.lightBlue[300], // Warna biru muda flat
+          backgroundColor: Colors.lightBlue[300],
           shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(20), // Desain tombol minimalis dengan sudut tumpul
+            borderRadius: BorderRadius.circular(20),
           ),
         ),
         child: const Text(
@@ -144,7 +144,7 @@ class FormDataState extends State<FormData> {
           style: TextStyle(
             fontSize: 16,
             color: Colors.white,
-            fontWeight: FontWeight.w400, // Font yang lebih ringan
+            fontWeight: FontWeight.w400,
           ),
         ),
       ),
