@@ -16,19 +16,19 @@ class TampilData extends StatelessWidget {
   Widget build(BuildContext context) {
     final int umur = DateTime.now().year - tahun;
     return Scaffold(
-      backgroundColor: Colors.lightBlue[50], // Warna background yang lembut
+      backgroundColor: Colors.lightBlue[50],
       appBar: AppBar(
         title: const Text("Kembali"),
-        backgroundColor: Colors.transparent, // Warna modern untuk AppBar
-        elevation: 0, // Menghilangkan bayangan di bawah AppBar
+        backgroundColor: Colors.transparent,
+        elevation: 0,
       ),
       body: Center(
         child: Padding(
-          padding: const EdgeInsets.all(20.0), // Padding yang lebih luas
+          padding: const EdgeInsets.all(20.0),
           child: Card(
-            elevation: 5, // Menambahkan bayangan ke card
+            elevation: 5,
             shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(15), // Membuat sudut yang melengkung
+              borderRadius: BorderRadius.circular(15),
             ),
             child: Padding(
               padding: const EdgeInsets.all(20.0),
@@ -41,15 +41,15 @@ class TampilData extends StatelessWidget {
                     style: TextStyle(
                       fontSize: 24,
                       fontWeight: FontWeight.bold,
-                      color: Colors.lightBlue, // Warna utama
+                      color: Colors.lightBlue,
                     ),
                   ),
-                  const SizedBox(height: 10), // Spasi antar elemen
+                  const SizedBox(height: 10),
                   Text(
                     "Nama saya $nama",
                     style: TextStyle(
                       fontSize: 18,
-                      fontWeight: FontWeight.w500, // Font lebih tegas
+                      fontWeight: FontWeight.w500,
                       color: Colors.grey[800],
                     ),
                   ),
@@ -61,13 +61,13 @@ class TampilData extends StatelessWidget {
                       color: Colors.grey[800],
                     ),
                   ),
-                  const SizedBox(height: 10), // Spasi antar elemen
+                  const SizedBox(height: 10),
                   Text(
                     "Saya berumur $umur tahun",
                     style: TextStyle(
                       fontSize: 18,
                       fontWeight: FontWeight.w400,
-                      color: Colors.grey[600], // Warna lebih lembut untuk detail
+                      color: Colors.grey[600],
                     ),
                   ),
                 ],

@@ -21,11 +21,11 @@ class FormDataState extends State<FormData> {
         child: SingleChildScrollView(
           padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 16),
           child: Align(
-            alignment: Alignment.topCenter, // Mengatur posisi kotak ke atas
+            alignment: Alignment.topCenter,
             child: Column(
-              mainAxisSize: MainAxisSize.min, // Memastikan kolom hanya sebesar isi
+              mainAxisSize: MainAxisSize.min,
               children: [
-                const SizedBox(height: 40), // Jarak dari atas halaman
+                const SizedBox(height: 40),
                 _buildInputBox(),
               ],
             ),
@@ -38,15 +38,15 @@ class FormDataState extends State<FormData> {
 
   Widget _buildInputBox() {
     return Container(
-      padding: const EdgeInsets.all(20), // Padding dalam kotak
-      width: 350, // Menentukan lebar kotak
+      padding: const EdgeInsets.all(20),
+      width: 350,
       decoration: BoxDecoration(
-        color: Colors.white, // Latar belakang kotak putih
-        borderRadius: BorderRadius.circular(20), // Sudut kotak lebih tumpul
-        border: Border.all(color: Colors.grey[500]!, width: 2), // Border lebih tebal
+        color: Colors.white,
+        borderRadius: BorderRadius.circular(20),
+        border: Border.all(color: Colors.grey[500]!, width: 2),
       ),
       child: Column(
-        crossAxisAlignment: CrossAxisAlignment.stretch, // Memastikan elemen mengisi lebar kotak
+        crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
           const Text(
             "Input Data",
@@ -55,15 +55,15 @@ class FormDataState extends State<FormData> {
               fontWeight: FontWeight.bold,
               color: Colors.lightBlue,
             ),
-            textAlign: TextAlign.center, // Pusatkan teks di dalam kotak
+            textAlign: TextAlign.center,
           ),
-          const SizedBox(height: 15), // Jarak antara teks dan input
+          const SizedBox(height: 15),
           _textboxNama(),
           const SizedBox(height: 15),
           _textboxNIM(),
           const SizedBox(height: 15),
           _textboxTahun(),
-          const SizedBox(height: 20), // Jarak antara input dan tombol
+          const SizedBox(height: 20),
           _buildSaveButton(),
         ],
       ),
@@ -103,7 +103,7 @@ class FormDataState extends State<FormData> {
       decoration: InputDecoration(
         labelText: label,
         labelStyle: const TextStyle(
-          color: Colors.black54, // Warna label yang soft
+          color: Colors.black54,
           fontSize: 16, // Ukuran font yang lebih menonjol pada label
         ),
         border: OutlineInputBorder(
