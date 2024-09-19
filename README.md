@@ -20,6 +20,7 @@ flutter pub get
 
 
 PROSES PASSING DATA DARI FORM MENUJU TAMPILAN DENGAN FILE 
+
 Passing data adalah proses mengirimkan data dari satu bagian program ke bagian lain. Dalam konteks aplikasi, passing data terjadi saat kita mengambil informasi dari satu layar (misalnya dari sebuah form) dan mengirimkannya ke layar lain untuk ditampilkan atau diolah lebih lanjut.
 
 1. Mengambil Data dari Form:
